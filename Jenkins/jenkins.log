@@ -1,0 +1,63 @@
+Running from: /usr/share/jenkins/jenkins.war
+webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 08, 2016 2:41:59 AM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Jun 08, 2016 2:42:01 AM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: jetty-winstone-2.9
+Jun 08, 2016 2:42:04 AM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 08, 2016 2:42:05 AM org.eclipse.jetty.util.log.JavaUtilLog info
+INFO: Started SelectChannelConnector@0.0.0.0:8080
+Jun 08, 2016 2:42:05 AM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v2.0 running: controlPort=disabled
+Jun 08, 2016 2:42:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 08, 2016 2:42:16 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 08, 2016 2:42:16 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 08, 2016 2:42:16 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 08, 2016 2:42:20 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 08, 2016 2:42:22 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 08, 2016 2:42:23 AM jenkins.util.groovy.GroovyHookScript execute
+INFO: Executing /var/jenkins_home/init.groovy.d/tcp-slave-agent-port.groovy
+Jun 08, 2016 2:42:23 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 34545
+Jun 08, 2016 2:42:23 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 08, 2016 2:42:23 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 08, 2016 2:42:24 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 08, 2016 2:42:24 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Jun 08, 2016 2:42:28 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 08, 2016 2:42:29 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Jun 08, 2016 2:42:29 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Jun 08, 2016 2:42:30 AM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Jun 08, 2016 2:42:30 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 7,164 ms
+--> setting agent port for jnlp
+--> setting agent port for jnlp... done
+Jun 08, 2016 2:42:54 AM winstone.Logger logInternal
+INFO: JVM is terminating. Shutting down Winstone
