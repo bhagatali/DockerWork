@@ -1,0 +1,3 @@
+Details of the useradd command:
+
+http://www.computerhope.com/unix/useradd.htm
