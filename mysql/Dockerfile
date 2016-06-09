@@ -1,0 +1,4 @@
+FROM mysql:latest
+MAINTAINER Ali Bhagat
+
+ENV MYSQL_ROOT_PASSWORD="ali"
